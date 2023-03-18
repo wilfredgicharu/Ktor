@@ -2,7 +2,7 @@ package com.androiddevs.data.collections
 
 import org.bson.codecs.pojo.annotations.BsonId
 import org.bson.types.ObjectId
-
+//note dataclass
 data class Note(
     val title: String,
     val content: String,
